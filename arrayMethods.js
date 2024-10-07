@@ -23,9 +23,12 @@ console.log(veggies);
 console.log(`deleted ${fruits.shift()}`);
 console.log(fruits);
 
-// Adding items at a specific index
+// Adding,removing or replacing items at a specific index 
 fruits.splice(1,0,"kiwi");
 console.log(fruits);
+
+// Slicing from the array
+console.log(fruits.slice(1,3));
 
 // Merging two arrays
 let fruitsAndVeggies = fruits.concat(veggies);
